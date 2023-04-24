@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BounceComponent } from './bounce/bounce.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BounceComponent
   ],
   imports: [
     BrowserModule,
